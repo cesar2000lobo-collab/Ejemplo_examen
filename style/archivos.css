@@ -1,0 +1,48 @@
+/* Fondo general de la página */
+body {
+    background-color: #f4e1c1; /* color de fondo */
+    font-family: 'Georgia', serif; /* tipografía general */
+    color: #2d1b0d; /* color de letras */
+    margin: 20px;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Times New Roman', serif; /* tipografía del título */
+    color: #8b0000; /* color del texto */
+    background-color: #f7d7b5; /* color de fondo del título */
+    border: 2px solid #8b0000; /* borde */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Párrafos */
+p {
+    font-family: 'Verdana', sans-serif; /* tipografía del párrafo */
+    color: #3a1f04; /* color del texto */
+    background-color: #fff8f0; /* fondo del párrafo */
+    border: 1px solid #dcb893; /* borde */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff8f0; /* fondo de la tabla */
+    border: 2px solid #8b0000; /* borde exterior */
+}
+
+th, td {
+    border: 1px solid #8b0000; /* bordes internos */
+    padding: 8px;
+    text-align: center;
+    color: #2d1b0d;
+}
+
+th {
+    background-color: #8b0000; /* fondo encabezado */
+    color: white; /* texto blanco */
+}
